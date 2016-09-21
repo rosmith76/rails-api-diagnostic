@@ -5,19 +5,19 @@ Place your responses inside the fenced code-blocks where indicated by comments.
 What is the purpose of a backend?
 
 ```bash
-// your response here
+To store data, so it can be accessed by the site.
 ```
 
 Which layer in the MVC pattern is used by the controller to fetch data?
 
 ```bash
-// your response here
+The controler fetches data from the model.
 ```
 
 Which layer in the MVC pattern communicates with the model?
 
 ```bash
-// your response here
+The controler communicates with the model.
 ```
 
 Why don't we use views in our interpretation of the MVC pattern?
@@ -29,44 +29,51 @@ Why don't we use views in our interpretation of the MVC pattern?
 What does C.R.U.D stand for?
 
 ```bash
-// your response here
+Create Read Update Delete.
 ```
 
 In which part of the MVC pattern can we find C.R.U.D actions?
 
 ```bash
-// your response here
+controler
 ```
 
 List at least 5 standard actions that C.R.U.D corresponds to?
 
 ```bash
-// your response here
+Create, index, show, update and destroy.
 ```
 
 A user action fires a `GET` request for `/persons/1`. Explain in detail each step
 required for data to be returned to the client. (bullet points or ordered list)
 
 ```bash
-// your response here
+1) client requests data from server.
+2) server tells controler ti get data.
+3) controler requests data from model
+4) model give data to controler
+5) controler gives data to server
+6) server sends data back to client
 ```
 
 What is the command to generate a new rails-api app?
 
 ```bash
-// your response here
+bundle exec rails server
 ```
 
 What is the command to start an instance of a rails server?
 
 ```bash
-// your response here
+bundle exex rake
 ```
 
 What are the commands to drop, create and migrate a database? (3 bullet points)
 
 ```bash
-// your response here
+1) drop_table
+2) create_table
+3) bin/rails db:migrate
 ```
 
 What is the command to scaffold a pet with a name and age attributes (hint:
